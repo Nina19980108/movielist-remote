@@ -1,0 +1,14 @@
+@media screen and (max-width: 575px) {
+  .card {
+    max-width: 150px;
+  }
+
+  #data-panel {
+    display: flex;
+    justify-content: center;
+  }
+
+  .card-title {
+    font-size: 0.2em;
+  }
+}
