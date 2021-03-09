@@ -12,4 +12,9 @@
   .card-title {
     font-size: 1em;
   }
+
+  #search-input {
+    width: 200px;
+    margin-right: 10px;
+  }
 }
