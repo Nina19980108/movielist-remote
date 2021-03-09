@@ -79,8 +79,8 @@ icons.addEventListener('click', function onClickIcons(event) {
 function renderMovieList(data) {
   let rawHTML = ''
   data.forEach(item => {
-    rawHTML += `<div class="col-sm-6 col-md-4 col-lg-3 card">
-        <div class="mb-2">
+    rawHTML += `<div class="col-sm-6 col-md-4 col-lg-3 cardDiv">
+        <div class="mb-2 cardDiv">
           <div class="card">
             <img
               src="${POSTER_URL}${item.image}"
