@@ -79,7 +79,7 @@ icons.addEventListener('click', function onClickIcons(event) {
 function renderMovieList(data) {
   let rawHTML = ''
   data.forEach(item => {
-    rawHTML += `<div class="col-sm-3">
+    rawHTML += `<div class="col-sm-6 col-md-4 col-lg-3">
         <div class="mb-2">
           <div class="card">
             <img
